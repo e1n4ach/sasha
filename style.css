@@ -22,8 +22,11 @@ body {
   min-height: 100svh;
   color: var(--ink);
   background-color: #eac2cc;
-  background-image: radial-gradient(circle, #332c30 2.5px, transparent 3px);
-  background-size: 25px 25px;
+  background-image:
+    radial-gradient(circle, #332c30 6px, transparent 6.6px),
+    radial-gradient(circle, #332c30 6px, transparent 6.6px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
   font-family: Georgia, "Times New Roman", serif;
   -webkit-font-smoothing: antialiased;
 }
